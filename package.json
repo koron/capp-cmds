@@ -1,5 +1,7 @@
 {
   "name": "capp-cmds",
   "version": "0.0.1",
-  "repo": "koron/capp-cmds"
+  "repo": "koron/capp-cmds",
+  "dependencies": {
+  }
 }
