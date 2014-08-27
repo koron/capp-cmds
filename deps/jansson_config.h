@@ -18,6 +18,10 @@
 #ifndef JANSSON_CONFIG_H
 #define JANSSON_CONFIG_H
 
+#ifdef HAVE_STDINT_H
+# include <stdint.h>
+#endif
+
 /* If your compiler supports the inline keyword in C, JSON_INLINE is
    defined to `inline', otherwise empty. In C++, the inline is always
    supported. */
