@@ -19,7 +19,7 @@ SRC  = $(wildcard src/*.c)
 DEPS = $(wildcard deps/*/*.c)
 OBJS = $(DEPS:.c=.o)
 
-CFLAGS  = -std=c99 -Ideps -I/usr/local/include -Wall -Wno-unused-function -U__STRICT_ANSI__
+CFLAGS  = -std=c99 -Ideps -I/usr/local/include -Wall -Wno-unused-function
 
 all: $(BINS)
 
